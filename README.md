@@ -1,2 +1,2 @@
-# -algorithmic_practice
-一般的算法练习
+# algorithmic_practice
+牛客网上的算法练习
