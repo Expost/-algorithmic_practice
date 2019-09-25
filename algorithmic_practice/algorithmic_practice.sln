@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "旋转数组的最小数字
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数列", "斐波那契数列\斐波那契数列.vcxproj", "{B781ABDB-2F35-4432-A82B-F7187C77A9D7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "跳台阶", "跳台阶\跳台阶.vcxproj", "{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{B781ABDB-2F35-4432-A82B-F7187C77A9D7}.Release|x64.Build.0 = Release|x64
 		{B781ABDB-2F35-4432-A82B-F7187C77A9D7}.Release|x86.ActiveCfg = Release|Win32
 		{B781ABDB-2F35-4432-A82B-F7187C77A9D7}.Release|x86.Build.0 = Release|Win32
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Debug|x64.ActiveCfg = Debug|x64
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Debug|x64.Build.0 = Debug|x64
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Debug|x86.Build.0 = Debug|Win32
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x64.ActiveCfg = Release|x64
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x64.Build.0 = Release|x64
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x86.ActiveCfg = Release|Win32
+		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
