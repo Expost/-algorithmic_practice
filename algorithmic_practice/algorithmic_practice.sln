@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "斐波那契数列", "斐�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "跳台阶", "跳台阶\跳台阶.vcxproj", "{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "变态跳台阶", "变态跳台阶\变态跳台阶.vcxproj", "{C433354A-EF11-46AB-A4B1-DF0A72A9F005}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x64.Build.0 = Release|x64
 		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x86.ActiveCfg = Release|Win32
 		{ACEAFDCB-46C2-4DFE-8587-5C9636D595ED}.Release|x86.Build.0 = Release|Win32
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Debug|x64.ActiveCfg = Debug|x64
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Debug|x64.Build.0 = Debug|x64
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Debug|x86.ActiveCfg = Debug|Win32
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Debug|x86.Build.0 = Debug|Win32
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Release|x64.ActiveCfg = Release|x64
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Release|x64.Build.0 = Release|x64
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Release|x86.ActiveCfg = Release|Win32
+		{C433354A-EF11-46AB-A4B1-DF0A72A9F005}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
