@@ -31,6 +31,7 @@ int jumpFloorII(int number)
     return cache[number];
 }
 
+// 当然根据上面的规律也可总结出跳法为 2n-1，所以直接用 (1 << (n-1)) 就能拿到结果
 
 int main()
 {
