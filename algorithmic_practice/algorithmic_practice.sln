@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "调整数组顺序使奇数
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表中倒数第k个结点", "链表中倒数第k个结点\链表中倒数第k个结点.vcxproj", "{A7AC1429-2220-4E2F-9CC5-7C3DBA608069}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "反转链表", "反转链表\反转链表.vcxproj", "{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{A7AC1429-2220-4E2F-9CC5-7C3DBA608069}.Release|x64.Build.0 = Release|x64
 		{A7AC1429-2220-4E2F-9CC5-7C3DBA608069}.Release|x86.ActiveCfg = Release|Win32
 		{A7AC1429-2220-4E2F-9CC5-7C3DBA608069}.Release|x86.Build.0 = Release|Win32
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Debug|x64.ActiveCfg = Debug|x64
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Debug|x64.Build.0 = Debug|x64
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Debug|x86.ActiveCfg = Debug|Win32
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Debug|x86.Build.0 = Debug|Win32
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Release|x64.ActiveCfg = Release|x64
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Release|x64.Build.0 = Release|x64
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Release|x86.ActiveCfg = Release|Win32
+		{570129F2-A1F6-4E7C-899E-FDF3EB564C2F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
