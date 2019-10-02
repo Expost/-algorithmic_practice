@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "反转链表", "反转链�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "添加合并两个排序的链表", "添加合并两个排序的链表\添加合并两个排序的链表.vcxproj", "{3D9CE795-FD82-4FB6-8F5D-D4096F91CAA7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "树的子结构", "树的子结构\树的子结构.vcxproj", "{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{3D9CE795-FD82-4FB6-8F5D-D4096F91CAA7}.Release|x64.Build.0 = Release|x64
 		{3D9CE795-FD82-4FB6-8F5D-D4096F91CAA7}.Release|x86.ActiveCfg = Release|Win32
 		{3D9CE795-FD82-4FB6-8F5D-D4096F91CAA7}.Release|x86.Build.0 = Release|Win32
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Debug|x64.ActiveCfg = Debug|x64
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Debug|x64.Build.0 = Debug|x64
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Debug|x86.ActiveCfg = Debug|Win32
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Debug|x86.Build.0 = Debug|Win32
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Release|x64.ActiveCfg = Release|x64
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Release|x64.Build.0 = Release|x64
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Release|x86.ActiveCfg = Release|Win32
+		{E34A13F1-5DD3-4FA6-9C75-7246C6E81F7A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
