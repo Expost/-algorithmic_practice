@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "从上往下打印二叉树
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉搜索树的后续遍历序列", "二叉搜索树的后续遍历序列\二叉搜索树的后续遍历序列.vcxproj", "{5DD6F8C6-2438-4A3D-85E2-05047DB77FF0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树中和为某一值的路径", "二叉树中和为某一值的路径\二叉树中和为某一值的路径.vcxproj", "{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{5DD6F8C6-2438-4A3D-85E2-05047DB77FF0}.Release|x64.Build.0 = Release|x64
 		{5DD6F8C6-2438-4A3D-85E2-05047DB77FF0}.Release|x86.ActiveCfg = Release|Win32
 		{5DD6F8C6-2438-4A3D-85E2-05047DB77FF0}.Release|x86.Build.0 = Release|Win32
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Debug|x64.ActiveCfg = Debug|x64
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Debug|x64.Build.0 = Debug|x64
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Debug|x86.ActiveCfg = Debug|Win32
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Debug|x86.Build.0 = Debug|Win32
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x64.ActiveCfg = Release|x64
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x64.Build.0 = Release|x64
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x86.ActiveCfg = Release|Win32
+		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
