@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉搜索树的后续遍
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树中和为某一值的路径", "二叉树中和为某一值的路径\二叉树中和为某一值的路径.vcxproj", "{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "复杂链表的复制", "复杂链表的复制\复杂链表的复制.vcxproj", "{A0555708-9F44-4578-B334-475CC3B015F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -251,6 +253,14 @@ Global
 		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x64.Build.0 = Release|x64
 		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x86.ActiveCfg = Release|Win32
 		{492E1F37-C1A1-4B07-BE3F-6B42EE6BD2C3}.Release|x86.Build.0 = Release|Win32
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Debug|x64.ActiveCfg = Debug|x64
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Debug|x64.Build.0 = Debug|x64
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Debug|x86.Build.0 = Debug|Win32
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Release|x64.ActiveCfg = Release|x64
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Release|x64.Build.0 = Release|x64
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Release|x86.ActiveCfg = Release|Win32
+		{A0555708-9F44-4578-B334-475CC3B015F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
