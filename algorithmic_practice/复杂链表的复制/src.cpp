@@ -62,7 +62,54 @@ RandomListNode* Clone(RandomListNode* pHead)
 // 2. 把复制的结点的random指针指向被复制结点的random指针的下一个结点
 // 3. 拆分成两个链表，奇数位置为原链表，偶数位置为复制链表
 // 还看到1个递归法，第一感觉真牛逼，不过细看后发现错了。。。
+RandomListNode* Clone_1(RandomListNode* pHead)
+{
+    if (pHead == nullptr)
+    {
+        return nullptr;
+    }
 
+    auto tmp_head = pHead;
+    // 复制插入
+    while (tmp_head != nullptr)
+    {
+        auto node = new RandomListNode(tmp_head->label);
+        auto next = tmp_head->next;
+        tmp_head->next = node;
+        node->next = next;
+        tmp_head = next;
+    }
+
+    tmp_head = pHead;
+    // 调整random节点
+    while (tmp_head != nullptr)
+    {
+        if (tmp_head->random != nullptr)
+        {
+            tmp_head->next->random = tmp_head->random->next;
+        }
+        
+        tmp_head = tmp_head->next->next;
+    }
+
+    tmp_head = pHead;
+    RandomListNode* new_head = tmp_head->next;
+    // 拆分
+    while (tmp_head != nullptr)
+    {
+        auto node = tmp_head->next;
+        auto next = tmp_head->next->next;
+
+        tmp_head->next = next;
+        if(next != nullptr)
+            node->next = next->next;
+        tmp_head = tmp_head->next;
+    }
+
+    return new_head;
+}
+
+// 1 -> 1' -> 2 -> 2' -> 3 -> 3'
 
 int main()
 {
@@ -71,15 +118,15 @@ int main()
     head->next->next = new struct RandomListNode(2);
     head->random = head->next->next;
     head->next->random = head;
-    head->next->next->random = new struct RandomListNode(3);
+    head->next->next->random = head->next;
 
-    auto clone_head = Clone(head);
+    auto clone_head = Clone_1(head);
     for (; clone_head != nullptr; clone_head = clone_head->next)
     {
         printf("%p %p %d\n", clone_head, clone_head->random, clone_head->label);
     }
 
-    clone_head = Clone(nullptr);
+    clone_head = Clone_1(nullptr);
     printf("%p\n", clone_head);
 
     getchar();
