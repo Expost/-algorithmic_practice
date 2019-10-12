@@ -1,8 +1,15 @@
 #include <stdio.h>
+#include <string>
 #include <vector>
 using namespace std;
 
-vector<string> Permutation(string str) {
+vector<string> p(string str)
+{
+
+}
+
+vector<string> Permutation(string str) 
+{
 
     vector<string> v;
     return v;
