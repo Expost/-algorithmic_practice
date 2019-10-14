@@ -50,10 +50,49 @@ vector<string> Permutation(string str)
     return v;
 }
 
+// 参考别人的实现
+void swap(char &fir, char &sec)
+{
+    char temp = fir;
+    fir = sec;
+    sec = temp;
+}
+
+void PermutationHelper(string str, vector<string> &result, int begin)
+{
+    if (begin == str.size() - 1)
+    {
+        if (find(result.begin(), result.end(), str) == result.end())
+        {
+            result.push_back(str);
+        }
+    }
+    else
+    {
+        for (int i = begin; i < str.size(); i++)
+        {
+            swap(str[i], str[begin]);
+            PermutationHelper(str, result, begin + 1);
+            swap(str[i], str[begin]);
+        }
+    }
+}
+
+vector<string> Permutation_1(string str)
+{
+    vector<string> v;
+    if (!str.empty())
+    {
+        PermutationHelper(str, v, 0);
+    }
+
+    return v;
+}
+
 int main()
 {
     string str = "abc";
-    auto v = Permutation(str);
+    auto v = Permutation_1(str);
     for (auto &s : v)
     {
         printf("%s\n", s.c_str());
