@@ -55,9 +55,9 @@ vector<string> Permutation(string str)
 // 参考别人的实现
 // 发现其实现与自己的思路相差不多
 // 整个思路是，给一个字符串，abc，
-// 以a为基准，bc共有bc、cb两种方式，
-// 以b为基准，ac共有ac、ca两种方式，
-// 以c为基准，ab共有ab、ba两种排列方式
+// 以a为基准，剩下bc，bc交换有两种方式，bc、cb，与a连起来即abc、acb
+// a与b交换，以b为基准，剩下ac，有ac、ca两种方式，与b连起来即bac、bca
+// a与c交换，以c为基准，剩下ba，有ba、ab两种方式，与c连起来即cba、cab
 void swap(char &fir, char &sec)
 {
     char temp = fir;
