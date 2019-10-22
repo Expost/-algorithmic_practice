@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中出现次数超过
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最小的K个数", "最小的K个数\最小的K个数.vcxproj", "{5F7FC166-349B-4C3D-9E2C-710DE6BA3837}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "连续子数组的最大和", "连续子数组的最大和\连续子数组的最大和.vcxproj", "{FA5579D1-B251-4326-85E4-4D854BF59E4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{5F7FC166-349B-4C3D-9E2C-710DE6BA3837}.Release|x64.Build.0 = Release|x64
 		{5F7FC166-349B-4C3D-9E2C-710DE6BA3837}.Release|x86.ActiveCfg = Release|Win32
 		{5F7FC166-349B-4C3D-9E2C-710DE6BA3837}.Release|x86.Build.0 = Release|Win32
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Debug|x64.ActiveCfg = Debug|x64
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Debug|x64.Build.0 = Debug|x64
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Debug|x86.ActiveCfg = Debug|Win32
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Debug|x86.Build.0 = Debug|Win32
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Release|x64.ActiveCfg = Release|x64
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Release|x64.Build.0 = Release|x64
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Release|x86.ActiveCfg = Release|Win32
+		{FA5579D1-B251-4326-85E4-4D854BF59E4E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
