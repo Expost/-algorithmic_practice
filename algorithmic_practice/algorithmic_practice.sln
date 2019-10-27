@@ -65,6 +65,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "连续子数组的最大和
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "整数中1出现的次数", "整数中1出现的次数\整数中1出现的次数.vcxproj", "{85E902B6-9328-4EA6-84EA-52B73F1F8369}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "把数组排成最小的数", "把数组排成最小的数\把数组排成最小的数.vcxproj", "{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -321,6 +323,14 @@ Global
 		{85E902B6-9328-4EA6-84EA-52B73F1F8369}.Release|x64.Build.0 = Release|x64
 		{85E902B6-9328-4EA6-84EA-52B73F1F8369}.Release|x86.ActiveCfg = Release|Win32
 		{85E902B6-9328-4EA6-84EA-52B73F1F8369}.Release|x86.Build.0 = Release|Win32
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Debug|x64.ActiveCfg = Debug|x64
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Debug|x64.Build.0 = Debug|x64
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Debug|x86.Build.0 = Debug|Win32
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Release|x64.ActiveCfg = Release|x64
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Release|x64.Build.0 = Release|x64
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Release|x86.ActiveCfg = Release|Win32
+		{BBD02006-3CCC-4EB8-B5B7-3C4A66674891}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
