@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "把数组排成最小的数
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "丑数", "丑数\丑数.vcxproj", "{27CE2C5C-0FD7-4F68-B439-C1FC75583A72}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "第一个只出现一次的字符串", "第一个只出现一次的字符串\第一个只出现一次的字符串.vcxproj", "{A081E24C-7D1D-404A-8928-777FD186E19A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{27CE2C5C-0FD7-4F68-B439-C1FC75583A72}.Release|x64.Build.0 = Release|x64
 		{27CE2C5C-0FD7-4F68-B439-C1FC75583A72}.Release|x86.ActiveCfg = Release|Win32
 		{27CE2C5C-0FD7-4F68-B439-C1FC75583A72}.Release|x86.Build.0 = Release|Win32
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Debug|x64.ActiveCfg = Debug|x64
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Debug|x64.Build.0 = Debug|x64
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Debug|x86.ActiveCfg = Debug|Win32
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Debug|x86.Build.0 = Debug|Win32
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Release|x64.ActiveCfg = Release|x64
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Release|x64.Build.0 = Release|x64
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Release|x86.ActiveCfg = Release|Win32
+		{A081E24C-7D1D-404A-8928-777FD186E19A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
