@@ -59,11 +59,33 @@ int GetNumberOfK(vector<int> data, int k)
     return count;
 }
 
+// 别人的答案，二分查找可以直接得到结果，不用像自己的那么麻烦
+
+int BinSearch(const vector<int> &data, double num)
+{
+    int left = 0;
+    int right = data.size() - 1;
+    while (left <= right)
+    {
+        int mid = (right - left) / 2 + left;
+        if (data[mid] < num)
+            left = mid + 1;
+        else if (data[mid] > num)
+            right = mid - 1;
+    }
+
+    return left;
+}
+
+int GetNumberOfK_2(vector<int> data, int k)
+{
+    return BinSearch(data, k + 0.5) - BinSearch(data, k - 0.5);
+}
 
 int main()
 {
     vector<int> v = { 1,2,3,4,4,5,6,7 };
-    int count = GetNumberOfK(v, 5);
+    int count = GetNumberOfK_2(v, 4);
     printf("%d\n", count);
 
     getchar();
