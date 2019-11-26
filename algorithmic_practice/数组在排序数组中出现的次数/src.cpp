@@ -1,8 +1,8 @@
-#include <stdio.h>
+﻿#include <stdio.h>
 #include <vector>
 using namespace std;
 
-// ˼·�����ֲ���
+// 思路，二分查找
 int BinarySearch(const vector<int> &array, int value)
 {
     int vec_size = array.size();
@@ -20,7 +20,7 @@ int BinarySearch(const vector<int> &array, int value)
     else if (array[pos] < value)
     {
         vector<int> new_array(array.begin() + pos + 1, array.end());
-        return BinarySearch(new_array, value);
+        return pos + BinarySearch(new_array, value);
     }
     else
     {
@@ -59,7 +59,7 @@ int GetNumberOfK(vector<int> data, int k)
     return count;
 }
 
-// ���˵Ĵ𰸣����ֲ��ҿ���ֱ�ӵõ�������������Լ�����ô�鷳
+// 别人的答案，二分查找可以直接得到结果，不用像自己的那么麻烦😥
 
 int BinSearch(const vector<int> &data, double num)
 {
@@ -82,11 +82,74 @@ int GetNumberOfK_2(vector<int> data, int k)
     return BinSearch(data, k + 0.5) - BinSearch(data, k - 0.5);
 }
 
+// 上述方法思路非常好，下面是常规的二分查找的方法，当然也是比自己的要好的
+// 注意以下两个程序的唯一区别就是
+
+int BinarySearch_1(const vector<int> &array, int value)
+{
+    int vec_size = array.size();
+    if (vec_size == 0)
+    {
+        return 0;
+    }
+
+    int pos = (vec_size) / 2;
+    if (array[pos] >= value)
+    {
+        vector<int> new_array(array.begin(), array.begin() + pos);
+        return BinarySearch_1(new_array, value);
+    }
+    else
+    {
+        vector<int> new_array(array.begin() + pos + 1, array.end());
+        return pos + 1 + BinarySearch_1(new_array, value);
+    }
+}
+
+int BinarySearch_2(const vector<int> &array, int value)
+{
+    int vec_size = array.size();
+    if (vec_size == 0)
+    {
+        return 0;
+    }
+
+    int pos = (vec_size) / 2;
+    if (array[pos] > value)
+    {
+        vector<int> new_array(array.begin(), array.begin() + pos);
+        return BinarySearch_2(new_array, value);
+    }
+    else
+    {
+        vector<int> new_array(array.begin() + pos + 1, array.end());
+        return pos + 1 + BinarySearch_2(new_array, value);
+    }
+}
+
+
+int GetNumberOfK_3(vector<int> data, int k)
+{
+    return BinarySearch_2(data, k) - BinarySearch_1(data, k);
+}
+
+
 int main()
 {
-    vector<int> v = { 1,2,3,4,4,5,6,7 };
-    int count = GetNumberOfK_2(v, 4);
+    vector<int> v = { 1,2,3,4,4,5,6,7, 9, 20, 21,100, 100, 100, 101, 102, 103 };
+    int count = GetNumberOfK_3(v, 4);
     printf("%d\n", count);
+    //int pos = BinarySearch_2(v, 100);
+    //printf("%d\n", pos);
+    //pos = BinarySearch_1(v, 100);
+    //printf("%d\n", pos);
+
+    //for (auto &i : v)
+    //{
+    //    int pos = BinarySearch_2(v, i);
+    //    printf("%d\n", v[pos]);
+    //}
+    
 
     getchar();
     return 0;
