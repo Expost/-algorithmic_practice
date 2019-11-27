@@ -79,6 +79,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数字在排序数组中出
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的深度", "二叉树的深度\二叉树的深度.vcxproj", "{56B4E30B-D5E1-4D16-95CA-247504F8675D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "平衡二叉树", "平衡二叉树\平衡二叉树.vcxproj", "{63382B58-FACC-40D0-978A-5A5614D9CB8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -391,6 +393,14 @@ Global
 		{56B4E30B-D5E1-4D16-95CA-247504F8675D}.Release|x64.Build.0 = Release|x64
 		{56B4E30B-D5E1-4D16-95CA-247504F8675D}.Release|x86.ActiveCfg = Release|Win32
 		{56B4E30B-D5E1-4D16-95CA-247504F8675D}.Release|x86.Build.0 = Release|Win32
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Debug|x64.ActiveCfg = Debug|x64
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Debug|x64.Build.0 = Debug|x64
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Debug|x86.ActiveCfg = Debug|Win32
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Debug|x86.Build.0 = Debug|Win32
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x64.ActiveCfg = Release|x64
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x64.Build.0 = Release|x64
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x86.ActiveCfg = Release|Win32
+		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
