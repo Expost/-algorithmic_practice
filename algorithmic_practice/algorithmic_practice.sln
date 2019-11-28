@@ -81,6 +81,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的深度", "二�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "平衡二叉树", "平衡二叉树\平衡二叉树.vcxproj", "{63382B58-FACC-40D0-978A-5A5614D9CB8A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中只出现一次的数字", "数组中只出现一次的数字\数组中只出现一次的数字.vcxproj", "{8F6324C1-D0B3-430E-B8A5-99786DCE1702}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -401,6 +403,14 @@ Global
 		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x64.Build.0 = Release|x64
 		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x86.ActiveCfg = Release|Win32
 		{63382B58-FACC-40D0-978A-5A5614D9CB8A}.Release|x86.Build.0 = Release|Win32
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Debug|x64.ActiveCfg = Debug|x64
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Debug|x64.Build.0 = Debug|x64
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Debug|x86.ActiveCfg = Debug|Win32
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Debug|x86.Build.0 = Debug|Win32
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Release|x64.ActiveCfg = Release|x64
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Release|x64.Build.0 = Release|x64
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Release|x86.ActiveCfg = Release|Win32
+		{8F6324C1-D0B3-430E-B8A5-99786DCE1702}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
