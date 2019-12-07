@@ -85,6 +85,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中只出现一次的
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "和为S的连续正数序列", "和为S的连续正数序列\和为S的连续正数序列.vcxproj", "{189642D9-B62C-4E59-966C-DC1C44F27652}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "和为S的两个数字", "和为S的两个数字\和为S的两个数字.vcxproj", "{524A68C5-9ED9-4C62-B379-5ADF1F42435E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -421,6 +423,14 @@ Global
 		{189642D9-B62C-4E59-966C-DC1C44F27652}.Release|x64.Build.0 = Release|x64
 		{189642D9-B62C-4E59-966C-DC1C44F27652}.Release|x86.ActiveCfg = Release|Win32
 		{189642D9-B62C-4E59-966C-DC1C44F27652}.Release|x86.Build.0 = Release|Win32
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Debug|x64.ActiveCfg = Debug|x64
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Debug|x64.Build.0 = Debug|x64
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Debug|x86.ActiveCfg = Debug|Win32
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Debug|x86.Build.0 = Debug|Win32
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Release|x64.ActiveCfg = Release|x64
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Release|x64.Build.0 = Release|x64
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Release|x86.ActiveCfg = Release|Win32
+		{524A68C5-9ED9-4C62-B379-5ADF1F42435E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
