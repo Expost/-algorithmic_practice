@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-#pragma warning(disable:4996)
+//#pragma warning(disable:4996)
 
 // C++最开始写不出来，主要因为没有处理好空格，用Python的话就几行😂
 //def ReverseSentence(self, s) :
@@ -42,14 +42,39 @@ string ReverseSentence(string str) {
     return s;
 }
 
+// 下面是参考讨论的解法
+string ReverseSentence_1(string str) {
+    string res = "";
+    string tmp = "";
+
+    for (int i = 0; i < str.size(); i++)
+    {
+        if (str[i] == ' ')
+        {
+            res = " " + tmp + res;
+            tmp = "";
+        }
+        else
+        {
+            tmp += str[i];
+        }
+    }
+
+    if (tmp.size() > 0)
+    {
+        res = tmp + res;
+    }
+
+    return res;
+}
 
 
 int main()
 {
-    //string str = "student. a am I";
+    string str = "student. a am I";
     //string str = "";
-    string str = "  ";
-    auto s = ReverseSentence(str);
+    //string str = "  ";
+    auto s = ReverseSentence_1(str);
     printf("\"%s\"\n", s.c_str());
 
     getchar();
