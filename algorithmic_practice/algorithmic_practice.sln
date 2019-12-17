@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "左旋转字符串", "左�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "翻转单词顺序列", "翻转单词顺序列\翻转单词顺序列.vcxproj", "{5F4B7F95-57EA-420F-813A-7821192BC51E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "扑克牌顺子", "扑克牌顺子\扑克牌顺子.vcxproj", "{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -451,6 +453,14 @@ Global
 		{5F4B7F95-57EA-420F-813A-7821192BC51E}.Release|x64.Build.0 = Release|x64
 		{5F4B7F95-57EA-420F-813A-7821192BC51E}.Release|x86.ActiveCfg = Release|Win32
 		{5F4B7F95-57EA-420F-813A-7821192BC51E}.Release|x86.Build.0 = Release|Win32
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Debug|x64.ActiveCfg = Debug|x64
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Debug|x64.Build.0 = Debug|x64
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Debug|x86.Build.0 = Debug|Win32
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Release|x64.ActiveCfg = Release|x64
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Release|x64.Build.0 = Release|x64
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Release|x86.ActiveCfg = Release|Win32
+		{3EA2DD4A-6747-4175-ABFB-8EFB859DEF2C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
