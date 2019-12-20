@@ -97,6 +97,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "孩子们的游戏", "孩�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1-N和", "1-N和\1-N和.vcxproj", "{3D3F0D0A-68BA-42E8-884A-9F53B9BD2416}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "不用加减乘除做加法", "不用加减乘除做加法\不用加减乘除做加法.vcxproj", "{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -481,6 +483,14 @@ Global
 		{3D3F0D0A-68BA-42E8-884A-9F53B9BD2416}.Release|x64.Build.0 = Release|x64
 		{3D3F0D0A-68BA-42E8-884A-9F53B9BD2416}.Release|x86.ActiveCfg = Release|Win32
 		{3D3F0D0A-68BA-42E8-884A-9F53B9BD2416}.Release|x86.Build.0 = Release|Win32
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Debug|x64.ActiveCfg = Debug|x64
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Debug|x64.Build.0 = Debug|x64
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Debug|x86.Build.0 = Debug|Win32
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Release|x64.ActiveCfg = Release|x64
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Release|x64.Build.0 = Release|x64
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Release|x86.ActiveCfg = Release|Win32
+		{CFBDCBFF-0FA1-4ABC-A3BA-61A5BFA0284F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
