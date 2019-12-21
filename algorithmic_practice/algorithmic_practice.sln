@@ -101,6 +101,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "不用加减乘除做加法
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "把字符串转换成整数", "把字符串转换成整数\把字符串转换成整数.vcxproj", "{8E16F045-5F65-4CFE-B635-23DAE77E19F4}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中重复的数字", "数组中重复的数字\数组中重复的数字.vcxproj", "{30D8B01E-3DDC-4379-A5A9-09063A018D4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -501,6 +503,14 @@ Global
 		{8E16F045-5F65-4CFE-B635-23DAE77E19F4}.Release|x64.Build.0 = Release|x64
 		{8E16F045-5F65-4CFE-B635-23DAE77E19F4}.Release|x86.ActiveCfg = Release|Win32
 		{8E16F045-5F65-4CFE-B635-23DAE77E19F4}.Release|x86.Build.0 = Release|Win32
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Debug|x64.ActiveCfg = Debug|x64
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Debug|x64.Build.0 = Debug|x64
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Debug|x86.ActiveCfg = Debug|Win32
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Debug|x86.Build.0 = Debug|Win32
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Release|x64.ActiveCfg = Release|x64
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Release|x64.Build.0 = Release|x64
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Release|x86.ActiveCfg = Release|Win32
+		{30D8B01E-3DDC-4379-A5A9-09063A018D4C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
