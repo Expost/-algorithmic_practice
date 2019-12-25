@@ -105,6 +105,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中重复的数字", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "构建乘积数组", "构建乘积数组\构建乘积数组.vcxproj", "{93E56EA1-BB89-4576-AD15-BF2F70B5BA39}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "正则表达式匹配", "正则表达式匹配\正则表达式匹配.vcxproj", "{F7A85BD3-D304-49D3-8F44-7FF85878889D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -521,6 +523,14 @@ Global
 		{93E56EA1-BB89-4576-AD15-BF2F70B5BA39}.Release|x64.Build.0 = Release|x64
 		{93E56EA1-BB89-4576-AD15-BF2F70B5BA39}.Release|x86.ActiveCfg = Release|Win32
 		{93E56EA1-BB89-4576-AD15-BF2F70B5BA39}.Release|x86.Build.0 = Release|Win32
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Debug|x64.ActiveCfg = Debug|x64
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Debug|x64.Build.0 = Debug|x64
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Debug|x86.ActiveCfg = Debug|Win32
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Debug|x86.Build.0 = Debug|Win32
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x64.ActiveCfg = Release|x64
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x64.Build.0 = Release|x64
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x86.ActiveCfg = Release|Win32
+		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
