@@ -21,51 +21,41 @@ bool equal(char s, char p)
 
 bool match(char* str, char* pattern)
 {
-    int str_pos = 0;
-    int pat_pos = 0;
-    while (*(pattern + pat_pos) != 0)
+    while (*pattern != 0)
     {
-        if (*(pat_pos + pattern + 1) != 0 && *(pat_pos + pattern + 1) == '*')
+        if (*(pattern + 1) != 0 && *(pattern + 1) == '*')
         {
-            bool equaled = false;
-            while (equal(*(str_pos + str), *(pattern + pat_pos)))
+            int pos = 0;
+            for (; equal(*(str + pos), *pattern); pos++)
             {
-                //printf("%s %s\n", str + str_pos + 1, pattern + pat_pos + 2);
-                if (match(str + str_pos + 1, pattern + pat_pos + 2))
+                if (match(str + pos + 1, pattern + 2))
                 {
                     return true;
                 }
-
-                str_pos++;
-                equaled = true;
             }
 
-            if (equaled)
-            {
-                str_pos--;
-            }
-            
-            pat_pos += 2;
+            str += pos ? pos - 1 : pos;
+            pattern += 2;
         }
         else
         {
-            if (!equal(*(str + str_pos), *(pat_pos + pattern)))
+            if (!equal(*str, *pattern))
             {
                 return false;
             }
 
-            str_pos++;
-            pat_pos++;
+            str++;
+            pattern++;
         }
     }
 
-    return *(str + str_pos) == 0;
+    return *str == 0;
 }
 
 
 int main()
 {
-    vector<tuple<string, string, bool>> testcase = { {"", ".*", true},
+    vector<tuple<string, string, bool>> testcase { {"", ".*", true},
                                               {"aaa", "a.a", true},
                                               {"aaa", "ab*ac*a", true},
                                               {"bbbba", ".*a*a", true} };
