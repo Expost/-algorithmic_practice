@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <vector>
+#include <string>
+#include <tuple>
+using namespace std;
 
 bool equal(char s, char p)
 {
@@ -23,20 +27,24 @@ bool match(char* str, char* pattern)
     {
         if (*(pat_pos + pattern + 1) != 0 && *(pat_pos + pattern + 1) == '*')
         {
+            bool equaled = false;
             while (equal(*(str_pos + str), *(pattern + pat_pos)))
             {
+                //printf("%s %s\n", str + str_pos + 1, pattern + pat_pos + 2);
                 if (match(str + str_pos + 1, pattern + pat_pos + 2))
                 {
                     return true;
                 }
 
                 str_pos++;
-                if (str_pos == 4)
-                {
-                    printf("hh");
-                }
+                equaled = true;
             }
 
+            if (equaled)
+            {
+                str_pos--;
+            }
+            
             pat_pos += 2;
         }
         else
@@ -57,17 +65,15 @@ bool match(char* str, char* pattern)
 
 int main()
 {
-    char str[] = "bbbba";
-    //char str[] = "aaa";
-    //char pattern[] = "a.a";
-    //char pattern[] = "ab*ac*a";
-    //char pattern[] = "ab*a";
-    char pattern[] = ".*a*a";
-    //char pattern[] = ".*";
-    //char pattern[] = "a*a";
-
-    bool b = match(str, pattern);
-    printf("%d\n", b);
+    vector<tuple<string, string, bool>> testcase = { {"", ".*", true},
+                                              {"aaa", "a.a", true},
+                                              {"aaa", "ab*ac*a", true},
+                                              {"bbbba", ".*a*a", true} };
+    for (auto &p : testcase)
+    {
+        bool b = match(&(get<0>(p))[0], &(get<1>(p))[0]);
+        printf("%d %d\n", b, get<2>(p));
+    }
 
     getchar();
     return 0;
