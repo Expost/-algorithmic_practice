@@ -52,6 +52,39 @@ bool match(char* str, char* pattern)
     return *str == 0;
 }
 
+// 匹配'.'非常简单，但在匹配'*'时则有一些坑，上面的代码为了'*'调试了好久
+// 看了讨论的代码，发现自己其实完全用递归就行了，上面的代码混合了递归和循环，
+// 看起来不如全递归统一
+// 参考讨论代码，下面改成递归实现
+
+bool match_1(char* str, char* pattern)
+{
+    if (*pattern == 0 && *str == 0) 
+        return true;
+    if (*pattern == 0 && *str != 0) 
+        return false;
+
+    if (*(pattern + 1) == '*')
+    {
+        if (equal(*str, *pattern))
+        {
+            return match_1(str, pattern + 2) || //< 匹配0个
+                   match_1(str + 1, pattern);   //< 匹配1个或多个
+        }
+        // 匹配0个
+        else
+        {
+            return match_1(str, pattern + 2);
+        }
+    }
+    else
+    {
+        if (equal(*str, *pattern))
+            return match_1(str + 1, pattern + 1);
+        else
+            return false;
+    }
+}
 
 int main()
 {
@@ -61,7 +94,7 @@ int main()
                                               {"bbbba", ".*a*a", true} };
     for (auto &p : testcase)
     {
-        bool b = match(&(get<0>(p))[0], &(get<1>(p))[0]);
+        bool b = match_1(&(get<0>(p))[0], &(get<1>(p))[0]);
         printf("%d %d\n", b, get<2>(p));
     }
 
