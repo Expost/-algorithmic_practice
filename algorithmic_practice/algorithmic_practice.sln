@@ -107,6 +107,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "构建乘积数组", "构�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "正则表达式匹配", "正则表达式匹配\正则表达式匹配.vcxproj", "{F7A85BD3-D304-49D3-8F44-7FF85878889D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "表示数值的字符串", "表示数值的字符串\表示数值的字符串.vcxproj", "{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -531,6 +533,14 @@ Global
 		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x64.Build.0 = Release|x64
 		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x86.ActiveCfg = Release|Win32
 		{F7A85BD3-D304-49D3-8F44-7FF85878889D}.Release|x86.Build.0 = Release|Win32
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Debug|x64.ActiveCfg = Debug|x64
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Debug|x64.Build.0 = Debug|x64
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Debug|x86.Build.0 = Debug|Win32
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x64.ActiveCfg = Release|x64
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x64.Build.0 = Release|x64
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x86.ActiveCfg = Release|Win32
+		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
