@@ -3,16 +3,6 @@
 #include <vector>
 using namespace std;
 
-enum state
-{
-    START = 1,
-    SIGN = 2,
-    NUM = 4, 
-    FLOAT = 8,
-    E = 16,
-    DOT = 32,
-};
-
 bool isNumeric(char* string)
 {
     if (string == nullptr)
@@ -20,49 +10,49 @@ bool isNumeric(char* string)
         return false;
     }
 
-    int s = START;
-    if (*string == '+' || *string == '-')
+    if (*string == '+' || *string == '-')   string++;
+
+    while (*string >= '0' && *string <= '9') string++;
+    if (*string == '.') string++;
+    while (*string >= '0' && *string <= '9') string++;
+
+    if (*string == 'E' || *string == 'e')
     {
         string++;
+        if (*string == 0)
+            return false;
+        else if (*string == '+' || *string == '-') 
+            string++;
+
+        while (*string >= '0' && *string <= '9') string++;
+
+        if (*string != 0)
+            return false;
+        else
+            return true;
     }
-
-
-
-    //vector<state> v;
-    //while (*string != 0)
-    //{
-    //    if (*string == '+' || *string == '-')
-    //    {
-    //        v.push_back(SIGN);
-    //    }
-    //    else if (*string >= '0' && *string <= '9')
-    //    {
-    //        v.push_back(NUM);
-    //    }
-    //    else if (*string == 'e' || *string == 'E')
-    //    {
-    //        v.push_back(E);
-    //    }
-    //    else if (*string == '.')
-    //    {
-    //        v.push_back(DOT);
-    //    }
-    //    else
-    //        return false;
-    //}
-
+    else if (*string == 0)
+        return true;
+    else
+        return false;
 
     return true;
 }
 
 int main()
 {
-    vector<string> testdata{ "+100", "5e2", "-123", "-1E-16", "3.1415926" };
+    vector<string> testdata{ "+100", "5e2", "-123", "-1E-16", "3.1415926", "123.45e+6" };
     for (auto &itr : testdata)
     {
         printf("%d\n", isNumeric(&itr[0]));
     }
 
+    printf("========================\n");
+    vector<string> invalid_data{ "12e","1a3.14","1.2.3","+-5", "12e+4.3" };
+    for (auto &itr : invalid_data)
+    {
+        printf("%d\n", isNumeric(&itr[0]));
+    }
 
     getchar();
     return 0;
