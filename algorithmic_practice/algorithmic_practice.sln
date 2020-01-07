@@ -109,6 +109,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "正则表达式匹配", "�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "表示数值的字符串", "表示数值的字符串\表示数值的字符串.vcxproj", "{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符流中第一个不重复的字符", "字符流中第一个不重复的字符\字符流中第一个不重复的字符.vcxproj", "{9D3014F0-7533-4765-AFD1-EDE768178C6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -541,6 +543,14 @@ Global
 		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x64.Build.0 = Release|x64
 		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x86.ActiveCfg = Release|Win32
 		{BBB3B6EC-C0A3-407F-9697-6ED94321AE25}.Release|x86.Build.0 = Release|Win32
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Debug|x64.ActiveCfg = Debug|x64
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Debug|x64.Build.0 = Debug|x64
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Debug|x86.Build.0 = Debug|Win32
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Release|x64.ActiveCfg = Release|x64
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Release|x64.Build.0 = Release|x64
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Release|x86.ActiveCfg = Release|Win32
+		{9D3014F0-7533-4765-AFD1-EDE768178C6F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
