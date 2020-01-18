@@ -113,6 +113,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符流中第一个不重
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "链表中环的入口结点", "链表中环的入口结点\链表中环的入口结点.vcxproj", "{DAB47EB1-FBB8-4C4F-8847-F3089FFF9985}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除链表中重复的结点", "删除链表中重复的结点\删除链表中重复的结点.vcxproj", "{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -561,6 +563,14 @@ Global
 		{DAB47EB1-FBB8-4C4F-8847-F3089FFF9985}.Release|x64.Build.0 = Release|x64
 		{DAB47EB1-FBB8-4C4F-8847-F3089FFF9985}.Release|x86.ActiveCfg = Release|Win32
 		{DAB47EB1-FBB8-4C4F-8847-F3089FFF9985}.Release|x86.Build.0 = Release|Win32
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Debug|x64.ActiveCfg = Debug|x64
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Debug|x64.Build.0 = Debug|x64
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Debug|x86.ActiveCfg = Debug|Win32
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Debug|x86.Build.0 = Debug|Win32
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Release|x64.ActiveCfg = Release|x64
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Release|x64.Build.0 = Release|x64
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Release|x86.ActiveCfg = Release|Win32
+		{01DEB8E2-77A2-4525-9DF9-3FCD7421C0A4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
