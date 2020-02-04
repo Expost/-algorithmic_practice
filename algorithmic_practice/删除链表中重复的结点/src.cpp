@@ -9,6 +9,8 @@ struct ListNode {
     }
 };
 
+// 未处理内存泄露问题，这点要注意
+// 实际实现中可使用智能指针解决
 ListNode* deleteDuplication(ListNode* pHead)
 {
     auto new_head = pHead;
