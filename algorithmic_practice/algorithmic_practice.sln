@@ -123,6 +123,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "按之字形顺序打印二
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "把二叉树打印成多行", "把二叉树打印成多行\把二叉树打印成多行.vcxproj", "{12BEB509-324F-44C2-922D-2B0374A6EE4D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "序列化二叉树", "序列化二叉树\序列化二叉树.vcxproj", "{7A2B2436-6812-4B28-A219-FF0499AA33B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -611,6 +613,14 @@ Global
 		{12BEB509-324F-44C2-922D-2B0374A6EE4D}.Release|x64.Build.0 = Release|x64
 		{12BEB509-324F-44C2-922D-2B0374A6EE4D}.Release|x86.ActiveCfg = Release|Win32
 		{12BEB509-324F-44C2-922D-2B0374A6EE4D}.Release|x86.Build.0 = Release|Win32
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Debug|x64.ActiveCfg = Debug|x64
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Debug|x64.Build.0 = Debug|x64
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Debug|x86.Build.0 = Debug|Win32
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Release|x64.ActiveCfg = Release|x64
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Release|x64.Build.0 = Release|x64
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Release|x86.ActiveCfg = Release|Win32
+		{7A2B2436-6812-4B28-A219-FF0499AA33B4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
