@@ -145,8 +145,49 @@ void helper_print(TreeNode *root)
 // 采用了层序遍历，每一层由'|'分割，每个结点由','分割，每个结点由两部分组成，由'-'分割
 // 前半部分为结点在这一层中从左起始的序号，第二部分为结点的值
 // 参考讨论，果然还是自己太low，实现如下：
+// 直接前序遍历，对于null指针使用特殊值存储即可（比如说明中的#）
 
+void dfs(TreeNode* root, vector<int> &buf)
+{
+    if (!root)
+        buf.push_back(0x23333);
+    else
+    {
+        buf.push_back(root->val);
+        dfs(root->left, buf);
+        dfs(root->right, buf);
+    }
+}
 
+TreeNode* dfs2(int*& buf)
+{
+    if (*buf == 0x23333)
+    {
+        buf++;
+        return nullptr;
+    }
+
+    auto res = new TreeNode(*buf);
+    buf++;
+    res->left = dfs2(buf);
+    res->right = dfs2(buf);
+    return res;
+}
+
+char* Serialize_1(TreeNode *root) {
+    vector<int> v;
+    dfs(root, v);
+    int *res = new int[v.size()];
+    for (int i = 0; i < v.size(); i++)
+        res[i] = v[i];
+    return (char*)res;
+}
+
+TreeNode* Deserialize_1(char *str)
+{
+    int *p = (int*)str;
+    return dfs2(p);
+}
 
 int main()
 {
@@ -169,7 +210,7 @@ int main()
     root->right->right->left = new struct TreeNode(8);
 
     TreeNode* root1 = nullptr;
-    auto str = Serialize(root1);
+    auto str = Serialize(root);
     printf("%s\n", str);
     auto new_root = Deserialize(str);
     helper_print(new_root);
