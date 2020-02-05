@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "序列化二叉树", "序�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉搜索数的第K个结点", "二叉搜索数的第K个结点\二叉搜索数的第K个结点.vcxproj", "{9D53EFD7-8A35-4E6E-9A07-8DCEC98F1EFB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数据流中的中位数", "数据流中的中位数\数据流中的中位数.vcxproj", "{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{9D53EFD7-8A35-4E6E-9A07-8DCEC98F1EFB}.Release|x64.Build.0 = Release|x64
 		{9D53EFD7-8A35-4E6E-9A07-8DCEC98F1EFB}.Release|x86.ActiveCfg = Release|Win32
 		{9D53EFD7-8A35-4E6E-9A07-8DCEC98F1EFB}.Release|x86.Build.0 = Release|Win32
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Debug|x64.ActiveCfg = Debug|x64
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Debug|x64.Build.0 = Debug|x64
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Debug|x86.Build.0 = Debug|Win32
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x64.ActiveCfg = Release|x64
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x64.Build.0 = Release|x64
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x86.ActiveCfg = Release|Win32
+		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
