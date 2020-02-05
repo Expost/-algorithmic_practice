@@ -117,6 +117,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "删除链表中重复的结
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉树的下一个结点", "二叉树的下一个结点\二叉树的下一个结点.vcxproj", "{127F5FFA-D0E4-4F56-B21F-7879AC7FE6B9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "对称的二叉树", "对称的二叉树\对称的二叉树.vcxproj", "{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -581,6 +583,14 @@ Global
 		{127F5FFA-D0E4-4F56-B21F-7879AC7FE6B9}.Release|x64.Build.0 = Release|x64
 		{127F5FFA-D0E4-4F56-B21F-7879AC7FE6B9}.Release|x86.ActiveCfg = Release|Win32
 		{127F5FFA-D0E4-4F56-B21F-7879AC7FE6B9}.Release|x86.Build.0 = Release|Win32
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Debug|x64.ActiveCfg = Debug|x64
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Debug|x64.Build.0 = Debug|x64
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Debug|x86.ActiveCfg = Debug|Win32
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Debug|x86.Build.0 = Debug|Win32
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Release|x64.ActiveCfg = Release|x64
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Release|x64.Build.0 = Release|x64
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Release|x86.ActiveCfg = Release|Win32
+		{7FF68FC5-93CA-42C4-9FEB-5083021FBEA4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
