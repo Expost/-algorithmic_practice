@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.705
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二维数组的查找", "algorithmic_practice\algorithmic_practice.vcxproj", "{B06A352F-B76C-475C-AE39-97EEDA85F6B7}"
 EndProject
@@ -128,6 +128,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "二叉搜索数的第K个结点", "二叉搜索数的第K个结点\二叉搜索数的第K个结点.vcxproj", "{9D53EFD7-8A35-4E6E-9A07-8DCEC98F1EFB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数据流中的中位数", "数据流中的中位数\数据流中的中位数.vcxproj", "{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "滑动窗口的最大值", "滑动窗口的最大值\滑动窗口的最大值.vcxproj", "{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -641,6 +643,14 @@ Global
 		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x64.Build.0 = Release|x64
 		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x86.ActiveCfg = Release|Win32
 		{0EA3D5F5-4D8D-4986-850D-7DC842C4FA4A}.Release|x86.Build.0 = Release|Win32
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Debug|x64.ActiveCfg = Debug|x64
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Debug|x64.Build.0 = Debug|x64
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Debug|x86.ActiveCfg = Debug|Win32
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Debug|x86.Build.0 = Debug|Win32
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Release|x64.ActiveCfg = Release|x64
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Release|x64.Build.0 = Release|x64
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Release|x86.ActiveCfg = Release|Win32
+		{83C8AD6C-AFA0-46CC-B987-7EB73EDFD533}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
