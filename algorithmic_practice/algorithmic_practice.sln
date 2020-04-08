@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵中的路径", "矩�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "机器人的运动范围", "机器人的运动范围\机器人的运动范围.vcxproj", "{771B5241-7506-4A46-B108-6B584F7E1E9F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "剪绳子", "剪绳子\剪绳子.vcxproj", "{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{771B5241-7506-4A46-B108-6B584F7E1E9F}.Release|x64.Build.0 = Release|x64
 		{771B5241-7506-4A46-B108-6B584F7E1E9F}.Release|x86.ActiveCfg = Release|Win32
 		{771B5241-7506-4A46-B108-6B584F7E1E9F}.Release|x86.Build.0 = Release|Win32
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Debug|x64.ActiveCfg = Debug|x64
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Debug|x64.Build.0 = Debug|x64
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Debug|x86.Build.0 = Debug|Win32
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Release|x64.ActiveCfg = Release|x64
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Release|x64.Build.0 = Release|x64
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Release|x86.ActiveCfg = Release|Win32
+		{2E686DA6-4530-47A2-81D2-D6B7B3EA61ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
