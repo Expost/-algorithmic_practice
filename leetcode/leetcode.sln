@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.960
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "爬楼梯", "leetcode\leetcode.vcxproj", "{667D4279-6B4D-4EBF-8AD2-0854D97C281C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "买卖股票的最佳时机", "买卖股票的最佳时机\买卖股票的最佳时机.vcxproj", "{03CCA724-0FDB-4C32-8AB0-B669B617DD94}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "连续子数组", "连续子数组\连续子数组.vcxproj", "{EA339F2D-BD30-4F23-AFDC-3A6081389910}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,14 @@ Global
 		{03CCA724-0FDB-4C32-8AB0-B669B617DD94}.Release|x64.Build.0 = Release|x64
 		{03CCA724-0FDB-4C32-8AB0-B669B617DD94}.Release|x86.ActiveCfg = Release|Win32
 		{03CCA724-0FDB-4C32-8AB0-B669B617DD94}.Release|x86.Build.0 = Release|Win32
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Debug|x64.ActiveCfg = Debug|x64
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Debug|x64.Build.0 = Debug|x64
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Debug|x86.Build.0 = Debug|Win32
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Release|x64.ActiveCfg = Release|x64
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Release|x64.Build.0 = Release|x64
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Release|x86.ActiveCfg = Release|Win32
+		{EA339F2D-BD30-4F23-AFDC-3A6081389910}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
