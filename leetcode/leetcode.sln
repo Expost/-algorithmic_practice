@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "不同路径", "不同路�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "零钱兑换", "零钱兑换\零钱兑换.vcxproj", "{DB21F33A-64BA-4DFC-8FE3-40BED9CEC404}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长上升子序列", "最长上升子序列\最长上升子序列.vcxproj", "{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{DB21F33A-64BA-4DFC-8FE3-40BED9CEC404}.Release|x64.Build.0 = Release|x64
 		{DB21F33A-64BA-4DFC-8FE3-40BED9CEC404}.Release|x86.ActiveCfg = Release|Win32
 		{DB21F33A-64BA-4DFC-8FE3-40BED9CEC404}.Release|x86.Build.0 = Release|Win32
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Debug|x64.ActiveCfg = Debug|x64
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Debug|x64.Build.0 = Debug|x64
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Debug|x86.ActiveCfg = Debug|Win32
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Debug|x86.Build.0 = Debug|Win32
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x64.ActiveCfg = Release|x64
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x64.Build.0 = Release|x64
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x86.ActiveCfg = Release|Win32
+		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
