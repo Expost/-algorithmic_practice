@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "零钱兑换", "零钱兑�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长上升子序列", "最长上升子序列\最长上升子序列.vcxproj", "{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "至少有k个重复字符的最长字串", "至少有k个重复字符的最长字串\至少有k个重复字符的最长字串.vcxproj", "{04E25019-DD49-4B5A-A081-8F2424F49790}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x64.Build.0 = Release|x64
 		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x86.ActiveCfg = Release|Win32
 		{508A9128-5BAA-40B7-8F3B-1CECC79F8A69}.Release|x86.Build.0 = Release|Win32
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Debug|x64.ActiveCfg = Debug|x64
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Debug|x64.Build.0 = Debug|x64
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Debug|x86.ActiveCfg = Debug|Win32
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Debug|x86.Build.0 = Debug|Win32
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Release|x64.ActiveCfg = Release|x64
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Release|x64.Build.0 = Release|x64
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Release|x86.ActiveCfg = Release|Win32
+		{04E25019-DD49-4B5A-A081-8F2424F49790}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
