@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include <map>
+#include <unordered_map>
 using namespace std;
 
 #define max(a, b) (((a) > (b)) ? (a) : (b))
@@ -45,39 +46,74 @@ using namespace std;
 //}
 
 // 参考讨论，实现如下，还需要再好好想想
-int count(const char* chars, int k, int p1, int p2){
-    if (p2 - p1 + 1 < k)return 0;
-    vector<int> v(26);
-    for (int i = p1;i <= p2;i++)
-        v[chars[i] - 'a']++;
-
-    while (p2 - p1 + 1 >= k && v[chars[p1] - 'a'] < k)
-        p1++;
-    while (p2 - p1 + 1 >= k &&v[chars[p2] - 'a'] < k)
-        p2--;
-
-    if (p2 - p1 + 1 < k)return 0;
-
-    for (int i = p1;i <= p2;i++) {
-        if (v[chars[i] - 'a'] < k) {
-            return max(count(chars, k, p1, i - 1), count(chars, k, i + 1, p2));
-        }
-    }
-
-    return p2 - p1 + 1;
-}
+//int count(const char* chars, int k, int p1, int p2){
+//    if (p2 - p1 + 1 < k)return 0;
+//    vector<int> v(26);
+//    for (int i = p1;i <= p2;i++)
+//        v[chars[i] - 'a']++;
+//
+//    while (p2 - p1 + 1 >= k && v[chars[p1] - 'a'] < k)
+//        p1++;
+//    while (p2 - p1 + 1 >= k &&v[chars[p2] - 'a'] < k)
+//        p2--;
+//
+//    if (p2 - p1 + 1 < k)return 0;
+//
+//    for (int i = p1;i <= p2;i++) {
+//        if (v[chars[i] - 'a'] < k) {
+//            return max(count(chars, k, p1, i - 1), count(chars, k, i + 1, p2));
+//        }
+//    }
+//
+//    return p2 - p1 + 1;
+//}
+//
+//int longestSubstring(string s, int k) {
+//    int len = s.size();
+//    if (len == 0 || len < k) return 0;
+//    if (k < 2) return len;
+//
+//    return count(s.c_str(), k, 0, len - 1);
+//}
 
 int longestSubstring(string s, int k) {
-    int len = s.size();
-    if (len == 0 || len < k) return 0;
-    if (k < 2) return len;
-
-    return count(s.c_str(), k, 0, len - 1);
+    int longstr = 0;
+    for (int needalpha = 1; needalpha <= 26; needalpha++) {//在需要不同字符的前提下用sliding window
+        unordered_map<char, int> map;
+        int left = 0, right = 0;
+        int windowalpha = 0, nolessthank = 0;
+        while (right < s.size()) {
+            if (map[s[right]]++ == 0) windowalpha++;
+            if (map[s[right]] == k) nolessthank++;
+            right++;
+            while (windowalpha > needalpha) {
+                if (map[s[left]]-- == k) nolessthank--;
+                if (map[s[left]] == 0) windowalpha--;
+                left++;
+            }
+            if (windowalpha == needalpha&&nolessthank == windowalpha) {
+                longstr = max(longstr, right - left);
+            }
+        }
+    }
+    return longstr;
 }
 
 int main() {
     string s;
     int ret = 0;
+
+    s = "ababacb";
+    ret = longestSubstring(s, 3);
+    printf("%d\n", ret);
+
+    s = "aaabbb";
+    ret = longestSubstring(s, 3);
+    printf("%d\n", ret);
+
+    s = "aaabbb";
+    ret = longestSubstring(s, 4);
+    printf("%d\n", ret);
 
     s = "ababbc";
     ret = longestSubstring(s, 2);
