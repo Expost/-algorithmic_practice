@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长连续序列", "最�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "完全平方数", "完全平方数\完全平方数.vcxproj", "{65A48A8E-5CE4-4243-B379-3C6C72CC8225}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "矩阵中的最长递增路径", "矩阵中的最长递增路径\矩阵中的最长递增路径.vcxproj", "{494ABDEA-7026-4F0B-8F75-9358EAE47A35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{65A48A8E-5CE4-4243-B379-3C6C72CC8225}.Release|x64.Build.0 = Release|x64
 		{65A48A8E-5CE4-4243-B379-3C6C72CC8225}.Release|x86.ActiveCfg = Release|Win32
 		{65A48A8E-5CE4-4243-B379-3C6C72CC8225}.Release|x86.Build.0 = Release|Win32
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Debug|x64.ActiveCfg = Debug|x64
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Debug|x64.Build.0 = Debug|x64
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Debug|x86.ActiveCfg = Debug|Win32
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Debug|x86.Build.0 = Debug|Win32
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Release|x64.ActiveCfg = Release|x64
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Release|x64.Build.0 = Release|x64
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Release|x86.ActiveCfg = Release|Win32
+		{494ABDEA-7026-4F0B-8F75-9358EAE47A35}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
