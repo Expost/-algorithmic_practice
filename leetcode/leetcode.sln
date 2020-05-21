@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LRU缓存机制", "LRU缓�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最小栈", "最小栈\最小栈.vcxproj", "{3094A235-F685-4CF3-A792-8C88DA855012}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "数组中的第k个最大元素", "数组中的第k个最大元素\数组中的第k个最大元素.vcxproj", "{AA951171-6237-4195-B190-845C6FDCE13F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -181,6 +183,14 @@ Global
 		{3094A235-F685-4CF3-A792-8C88DA855012}.Release|x64.Build.0 = Release|x64
 		{3094A235-F685-4CF3-A792-8C88DA855012}.Release|x86.ActiveCfg = Release|Win32
 		{3094A235-F685-4CF3-A792-8C88DA855012}.Release|x86.Build.0 = Release|Win32
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Debug|x64.ActiveCfg = Debug|x64
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Debug|x64.Build.0 = Debug|x64
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Debug|x86.Build.0 = Debug|Win32
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Release|x64.ActiveCfg = Release|x64
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Release|x64.Build.0 = Release|x64
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Release|x86.ActiveCfg = Release|Win32
+		{AA951171-6237-4195-B190-845C6FDCE13F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
