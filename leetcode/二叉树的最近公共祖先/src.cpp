@@ -41,13 +41,33 @@ bool dfs(TreeNode* root, TreeNode* p, TreeNode* q, list<pair<TreeNode*, bool>> &
 }
 
 
+//TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+//    if (!root || !p || !q)return nullptr;
+//    TreeNode* f = nullptr;
+//    list<pair<TreeNode*, bool>> s;
+//    dfs(root, p, q, s, f);
+//    return f;
+//}
+
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-    if (!root || !p || !q)return nullptr;
-    TreeNode* f = nullptr;
-    list<pair<TreeNode*, bool>> s;
-    dfs(root, p, q, s, f);
-    return f;
+    if (root == nullptr)return nullptr;
+    
+    auto left = lowestCommonAncestor(root->left, p, q);
+    auto right = lowestCommonAncestor(root->right, p, q);
+
+    if (left && right) return root;
+    if (left) return left;
+    if (right) return right;
+    if (left && (p == root || q == root)) return root;
+    if (right && (p == root || q == root)) return root;
+    if (p == root || q == root)return root;
+    return nullptr;
+
+    //if (p == root || q == root) return root;
+    //if (!left && !right)return nullptr;
+    //return root;
 }
+
 
 int main() {
     TreeNode* root = nullptr;
