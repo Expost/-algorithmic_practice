@@ -56,11 +56,13 @@ TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
     auto right = lowestCommonAncestor(root->right, p, q);
 
     if (left && right) return root;
-    if (left) return left;
-    if (right) return right;
     if (left && (p == root || q == root)) return root;
     if (right && (p == root || q == root)) return root;
     if (p == root || q == root)return root;
+    if (left) return left;
+    if (right) return right;
+
+
     return nullptr;
 
     //if (p == root || q == root) return root;
@@ -83,7 +85,7 @@ int main() {
     root->right->left = new TreeNode(7);
     root->right->right = new TreeNode(9);
 
-    ret = lowestCommonAncestor(root, root->left, root->left->right);
+    ret = lowestCommonAncestor(root, root->left, root->right->left);
     printf("%d\n", ret->val);
 
 
