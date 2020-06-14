@@ -49,25 +49,39 @@ bool dfs(TreeNode* root, TreeNode* p, TreeNode* q, list<pair<TreeNode*, bool>> &
 //    return f;
 //}
 
+//TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+//    if (root == nullptr)return nullptr;
+//    
+//    auto left = lowestCommonAncestor(root->left, p, q);
+//    auto right = lowestCommonAncestor(root->right, p, q);
+//
+//    if (left && right) return root;
+//    //if (left && (p == root || q == root)) return root;
+//    //if (right && (p == root || q == root)) return root;
+//    if (p == root || q == root)return root;
+//    if (left) return left;
+//    if (right) return right;
+//
+//    return root;
+//
+//    //return nullptr;
+//
+//    //if (p == root || q == root) return root;
+//    //if (!left && !right)return nullptr;
+//    //return root;
+//}
+
+
 TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-    if (root == nullptr)return nullptr;
-    
+    if (root == nullptr || root == p || root == q)return root;
+
     auto left = lowestCommonAncestor(root->left, p, q);
     auto right = lowestCommonAncestor(root->right, p, q);
 
-    if (left && right) return root;
-    if (left && (p == root || q == root)) return root;
-    if (right && (p == root || q == root)) return root;
-    if (p == root || q == root)return root;
-    if (left) return left;
-    if (right) return right;
-
-
-    return nullptr;
-
-    //if (p == root || q == root) return root;
-    //if (!left && !right)return nullptr;
-    //return root;
+    if (left == nullptr && right == nullptr) return nullptr;
+    if (left == nullptr)return right;
+    if (right == nullptr) return left;
+    return root;
 }
 
 
@@ -85,7 +99,7 @@ int main() {
     root->right->left = new TreeNode(7);
     root->right->right = new TreeNode(9);
 
-    ret = lowestCommonAncestor(root, root->left, root->right->left);
+    ret = lowestCommonAncestor(root, root->left, root->left->left);
     printf("%d\n", ret->val);
 
 
