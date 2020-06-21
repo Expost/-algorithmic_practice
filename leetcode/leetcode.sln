@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "两数之和", "两数之�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "寻找两个正序数组的中位数", "寻找两个正序数组的中位数\寻找两个正序数组的中位数.vcxproj", "{C736B984-6AB2-42CA-9E06-31F3815F02C0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长回文子串", "最长回文子串\最长回文子串.vcxproj", "{84195805-F1A2-4BB4-9464-2525FA40075D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{C736B984-6AB2-42CA-9E06-31F3815F02C0}.Release|x64.Build.0 = Release|x64
 		{C736B984-6AB2-42CA-9E06-31F3815F02C0}.Release|x86.ActiveCfg = Release|Win32
 		{C736B984-6AB2-42CA-9E06-31F3815F02C0}.Release|x86.Build.0 = Release|Win32
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Debug|x64.ActiveCfg = Debug|x64
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Debug|x64.Build.0 = Debug|x64
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Debug|x86.ActiveCfg = Debug|Win32
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Debug|x86.Build.0 = Debug|Win32
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Release|x64.ActiveCfg = Release|x64
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Release|x64.Build.0 = Release|x64
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Release|x86.ActiveCfg = Release|Win32
+		{84195805-F1A2-4BB4-9464-2525FA40075D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
