@@ -28,16 +28,31 @@ string palindrome(string &s, int i, int j) {
 // 动态规划算法
 string longestPalindrome(string s) {
     int n = s.size();
-    vector<vector<int>> dp(n, vector<int>(n));
+    vector<vector<int>> dp(n, vector<int>(n, 0));
+    for (int i = 0; i < n; i++) {
+        for (int j = i; j < n; j++) {
+            dp[i][j] = 1;
+        }
+    }
 
+    int max_len = 1;
+    int start_pos = 0;
 
-    string ans;
-    for (int l = 0; l < n; ++l) {
-        for (int i = 0; i + l < n; ++i) {
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (s[i] == s[j] && (dp[i + 1][j - 1] == 1 || j - i == 1)) {
+                dp[i][j] = 1;
+
+                if (j - i + 1 > max_len) {
+                    max_len = j - i + 1;
+                    start_pos = i;
+                }
+            }
 
         }
     }
-    return ans;
+
+    return s.substr(start_pos, start_pos + max_len - 1);
 }
 
 int main() {
@@ -51,6 +66,9 @@ int main() {
     printf("%s\n", ret.c_str());
 
     ret = longestPalindrome("abccba");
+    printf("%s\n", ret.c_str());
+
+    ret = longestPalindrome("cbbd");
     printf("%s\n", ret.c_str());
 
     getchar();
