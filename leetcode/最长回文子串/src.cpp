@@ -36,22 +36,13 @@ string longestPalindrome(string s) {
     int max_len = 1;
     int start_pos = 0;
 
-    for (int i = 0; i < n; i++) {
-        for (int j = 1; j < i; j++) {
-            if (s[i] == s[j]) {
-                if (dp[i + 1][j - 1] == 1) {
-                    dp[i][j] = 1;
-                    if (j - i + 1 > max_len) {
-                        max_len = j - i + 1;
-                        start_pos = i;
-                    }
-                }
-                else if (j - i == 1) {
-                    dp[i][j] = 1;
-                    if (j - i + 1> max_len) {
-                        max_len = j - i + 1;
-                        start_pos = i;
-                    }
+    for (int j = 1; j < n; j++) {
+        for (int i = 0; i < j; i++) {
+            if (s[i] == s[j] && (dp[i + 1][j - 1] == 1 || j - i == 1)) {
+                dp[i][j] = 1;
+                if (j - i + 1 > max_len) {
+                    max_len = j - i + 1;
+                    start_pos = i;
                 }
             }
         }
