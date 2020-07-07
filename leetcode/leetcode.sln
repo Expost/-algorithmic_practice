@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长回文子串", "最�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串转换整数", "字符串转换整数\字符串转换整数.vcxproj", "{7722BCF8-2B12-4C6E-B106-3333F0995652}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "最长公共前缀", "最长公共前缀\最长公共前缀.vcxproj", "{04527CC9-79FB-457F-9FB7-D34D995484B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -291,6 +293,14 @@ Global
 		{7722BCF8-2B12-4C6E-B106-3333F0995652}.Release|x64.Build.0 = Release|x64
 		{7722BCF8-2B12-4C6E-B106-3333F0995652}.Release|x86.ActiveCfg = Release|Win32
 		{7722BCF8-2B12-4C6E-B106-3333F0995652}.Release|x86.Build.0 = Release|Win32
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Debug|x64.ActiveCfg = Debug|x64
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Debug|x64.Build.0 = Debug|x64
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Debug|x86.ActiveCfg = Debug|Win32
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Debug|x86.Build.0 = Debug|Win32
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Release|x64.ActiveCfg = Release|x64
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Release|x64.Build.0 = Release|x64
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Release|x86.ActiveCfg = Release|Win32
+		{04527CC9-79FB-457F-9FB7-D34D995484B5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
