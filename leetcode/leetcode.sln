@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "存在重复元素", "存�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "合并两个有序数组", "合并两个有序数组\合并两个有序数组.vcxproj", "{E3A55D8A-8CAE-44E5-9925-3D7AA13320D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "有效的括号", "有效的括号\有效的括号.vcxproj", "{0102E33F-C447-4681-9955-37B488423AE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -371,6 +373,14 @@ Global
 		{E3A55D8A-8CAE-44E5-9925-3D7AA13320D1}.Release|x64.Build.0 = Release|x64
 		{E3A55D8A-8CAE-44E5-9925-3D7AA13320D1}.Release|x86.ActiveCfg = Release|Win32
 		{E3A55D8A-8CAE-44E5-9925-3D7AA13320D1}.Release|x86.Build.0 = Release|Win32
+		{0102E33F-C447-4681-9955-37B488423AE5}.Debug|x64.ActiveCfg = Debug|x64
+		{0102E33F-C447-4681-9955-37B488423AE5}.Debug|x64.Build.0 = Debug|x64
+		{0102E33F-C447-4681-9955-37B488423AE5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0102E33F-C447-4681-9955-37B488423AE5}.Debug|x86.Build.0 = Debug|Win32
+		{0102E33F-C447-4681-9955-37B488423AE5}.Release|x64.ActiveCfg = Release|x64
+		{0102E33F-C447-4681-9955-37B488423AE5}.Release|x64.Build.0 = Release|x64
+		{0102E33F-C447-4681-9955-37B488423AE5}.Release|x86.ActiveCfg = Release|Win32
+		{0102E33F-C447-4681-9955-37B488423AE5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
