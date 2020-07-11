@@ -3,35 +3,57 @@
 using namespace std;
 
 // 空间复杂度，O(M + N)
+//void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+//    int i = 0;
+//    int j = 0;
+//    vector<int> mn;
+//    while (i < m && j < n) {
+//        if (nums1[i] < nums2[j]) {
+//            mn.push_back(nums1[i]);
+//            i++;
+//        }
+//        else{
+//            mn.push_back(nums2[j]);
+//            j++;
+//        }
+//    }
+//
+//    if (i != m) {
+//        while (i < m) {
+//            mn.push_back(nums1[i++]);
+//        }
+//    }
+//    if (j != n) {
+//        while (j < n) {
+//            mn.push_back(nums2[j++]);
+//        }
+//    }
+//
+//    for (i = 0; i < mn.size(); i++) {
+//        nums1[i] = mn[i];
+//    }
+//}
+
+// 查看讨论，通过从后往前的方式，可以实现O(1)的空间复杂度
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
-    int i = 0;
-    int j = 0;
-    vector<int> mn;
-    while (i < m && j < n) {
-        if (nums1[i] < nums2[j]) {
-            mn.push_back(nums1[i]);
-            i++;
+    int i = m - 1;
+    int j = n - 1;
+    int target = m + n - 1;
+    while (j >= 0) {
+        if (i >= 0 && nums1[i] > nums2[j]) {
+            nums1[target--] = nums1[i--];
+            continue;
         }
-        else{
-            mn.push_back(nums2[j]);
-            j++;
-        }
+        
+        nums1[target--] = nums2[j--];
     }
 
-    if (i != m) {
-        while (i < m) {
-            mn.push_back(nums1[i++]);
-        }
-    }
-    if (j != n) {
-        while (j < n) {
-            mn.push_back(nums2[j++]);
-        }
-    }
-
-    for (i = 0; i < mn.size(); i++) {
-        nums1[i] = mn[i];
-    }
+    //while (i >= 0) {
+    //    nums1[target--] = nums1[i--];
+    //}
+    //while (j >= 0) {
+    //    nums1[target--] = nums2[j--];
+    //}
 }
 
 int main() {
